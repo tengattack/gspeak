@@ -1,0 +1,20 @@
+{
+  "description": {
+    "message": "お好みのテキストをGoogle話す～ by 腾袭 (tengattack)"
+  },
+  "select_info": {
+    "message": "読みの言語を選択してください"
+  },
+  "menu_title": {
+    "message": "Google話す!"
+  },
+  "zh": {
+    "message": "中国語"
+  },
+  "ja": {
+    "message": "日本語"
+  },
+  "en": {
+    "message": "英語"
+  }
+}

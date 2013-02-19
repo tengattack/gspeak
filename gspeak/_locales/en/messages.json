@@ -1,0 +1,20 @@
+{
+  "description": {
+    "message": "Make Google speak the text of your choice ~ by 腾袭 (tengattack)"
+  },
+  "select_info": {
+    "message": "Please select reading language"
+  },
+  "menu_title": {
+    "message": "GoogleSpeak!"
+  },
+  "zh": {
+    "message": "Chinese"
+  },
+  "ja": {
+    "message": "Japanese"
+  },
+  "en": {
+    "message": "English"
+  }
+}
