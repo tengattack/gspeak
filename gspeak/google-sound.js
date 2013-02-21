@@ -19,7 +19,7 @@ chrome.storage.onChanged.addListener(function(changes, namespace) {
 function selectionOnClick(info, tab) {
   if (info.selectionText) {
     //console.log('reading: \'' + info.selectionText + '\'!');
-    var strurl = 'http://translate.google.com.hk/translate_tts?ie=UTF-8&q=' + info.selectionText + '&tl=' + g_lang + '&total=1&idx=0&textlen=' + info.selectionText.length.toString() + '&prev=input';
+    var strurl = 'http://translate.google.com.hk/translate_tts?ie=UTF-8&q=' + encodeURIComponent(info.selectionText) + '&tl=' + g_lang + '&total=1&idx=0&textlen=' + info.selectionText.length.toString() + '&prev=input';
     soundManager.play('gsnd', {"url": strurl});
   }
 }
